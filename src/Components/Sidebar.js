@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import Sbcontents from '../SidebarComponent/Sbcomp'
+import './Styles/Sidebar.css'
 
 
 const Sidebar = () => {
