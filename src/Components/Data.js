@@ -78,9 +78,8 @@ function Data() {
                     value={name}
                     onChange={handleName}
                   >
-                    <MenuItem value={"David White"}>David White</MenuItem>
-                    <MenuItem value={"Tim"}>Tim</MenuItem>
-                    <MenuItem value={"Abi"}>Abi</MenuItem>
+                    <MenuItem value={"Mohamed"}>David White</MenuItem>
+                    <MenuItem value={"Simar"}>Simar</MenuItem>
                   </Select>
                 </FormControl>
               </div>
