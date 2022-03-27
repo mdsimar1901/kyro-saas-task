@@ -95,7 +95,6 @@ function Data() {
                   >
                     <MenuItem value={"Project 1"}>Project 1</MenuItem>
                     <MenuItem value={"Project 2"}>Project 2</MenuItem>
-                    <MenuItem value={"Project 3"}>Project 3</MenuItem>
                   </Select>
                 </FormControl>
               </div>
