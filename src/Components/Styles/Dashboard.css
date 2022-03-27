@@ -1,7 +1,7 @@
 .dashboard-container {
   height: 90vh;
   display: flex;
-  flex-direction: col;
+  flex-direction: row;
   width: 100vw;
 }
 

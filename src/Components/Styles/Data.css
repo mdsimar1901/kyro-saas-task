@@ -1,0 +1,174 @@
+.datapart-container {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  margin: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.schedule {
+  font-size: 1.2rem;
+  color: #151d3b;
+  margin-top: -17px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+}
+
+.datapart-hero {
+  height: 98%;
+  width: 100%;
+  margin-left: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+.input-section {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 35px;
+}
+
+.datapart-filters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 12%;
+  gap: 30px;
+}
+.filterbyproj {
+  margin-top: -14px;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.filter-btn {
+  border: none;
+  color: white;
+  outline: none;
+  padding: 6px 12px;
+  background-color: #0098d6;
+  border-radius: 2px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.reset {
+  color: black;
+  background-color: #f2f2f2;
+  border: 1px solid #d4d2d2;
+}
+
+.section-status {
+  height: 9%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+  background-color: #f2f2f2;
+  align-items: center;
+  padding: 10px;
+  font-weight: 500;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.status div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.section-datas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 8px;
+  gap: 4px;
+}
+
+.section-statuses {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf6fe;
+  padding: 5px;
+  overflow-y: scroll;
+  gap: 10px;
+}
+
+.section-statuses::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+.section-statuses::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+@media all and (min-width: 1300px) {
+  .section-datas {
+    height: 100%;
+  }
+  .datapart-hero {
+    height: 98%;
+    background-color: white;
+  }
+}
+
+@media all and (max-width: 1300px) {
+  .input-section {
+    height: 20%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .datapart-container {
+    overflow-y: scroll;
+    background-color: white;
+  }
+  .section-datas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .section-statuses {
+    width: 100%;
+  }
+  .datapart-filters {
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .section-status {
+    display: none;
+  }
+  .datapart-container {
+    padding: 0px;
+  }
+  .schedule {
+    padding-top: 20px;
+  }
+}
